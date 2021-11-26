@@ -1,0 +1,46 @@
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+
+}
+
+.Cards{
+background-color:rgb(84, 164, 218); 
+height:100vh;
+width:100vw;
+flex-direction:row;
+flex-wrap: wrap;
+display:flex;
+
+/*  */
+}
+
+.Card{
+  color:white;
+  background-color: rgb(2, 148, 111);
+  padding:1rem;
+  margin:1rem;
+  position:relative;
+  height:25vh;
+  border-radius: 15px;
+}
+
+.CardRed{
+  color:white;
+  background-color: rgb(121, 0, 0);
+  padding:1rem;
+  margin:1rem;
+  position:relative;
+
+  height:25vh;
+  border-radius: 15px;
+
+}
+
+ul{
+  list-style:none;
+  display:inherit;
+  width: 100vw;
+}
